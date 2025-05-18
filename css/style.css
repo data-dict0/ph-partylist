@@ -45,7 +45,7 @@ body {
 .spread-text {
   height: 100%;
   width: 100%;
-  top: 70;
+  top: 80;
   left: 350;
   position: absolute;
   display: flex;
@@ -64,12 +64,12 @@ body {
 }
 
 .spread-text p:first-child {
-  font-size: 65px;
+  font-size: 75px;
   background: rgba(0, 63, 92, 0.3);
   font-weight: bold;
   max-width: 620px;
-  padding: 15px;
-  width: 50%;
+  padding: 10px;
+  width: 35%;
   color:#ffffff;
   text-align: center;
 }
