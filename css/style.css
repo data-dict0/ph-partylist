@@ -25,7 +25,7 @@ a {
 
 .tall img {
   margin: 0 auto;
-  display:block;
+  display: block;
   max-width: 100%;
 }
 
@@ -37,7 +37,7 @@ a {
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 .spread-text p {
@@ -57,7 +57,7 @@ a {
   max-width: 620px;
   padding: 10px;
   width: 35%;
-  color:#ffffff;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -88,7 +88,7 @@ a {
   top: 4%;
   color: #333333;
   font-size: 20px;
-  background: #ffffff
+  background: #ffffff;
 }
 
 .caption {
@@ -102,7 +102,6 @@ a {
 /* When it's less than 500 pixels wide */
 
 @media only screen and (max-width: 540px) and (min-width: 300px) {
-
   .title {
     text-align: center !important;
     justify-content: center;
@@ -114,14 +113,14 @@ a {
   }
 
   .tall-mobile .title {
-    top:-100;
-    left:0%;
-    padding:10px;
+    top: -100;
+    left: 0%;
+    padding: 10px;
   }
 
   .tall-mobile .byline {
     top: 550;
-    left:23%
+    left: 23%;
   }
 
   .tall-mobile {
@@ -129,18 +128,19 @@ a {
     display: block;
     margin: 0 auto;
   }
-  
+
   .tall {
     display: none;
   }
-  
+
   .tall-mobile img {
     margin: 0 auto;
     display: block;
     max-width: 100%;
     margin-top: 150px;
   }
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
   }
 }
