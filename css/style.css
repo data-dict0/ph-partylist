@@ -101,34 +101,26 @@ a {
 
 /* When it's less than 500 pixels wide */
 
-@media only screen and (max-width: 500px) and (min-width: 300px) {
+@media only screen and (max-width: 540px) and (min-width: 300px) {
 
   .title {
     text-align: center !important;
     justify-content: center;
-    position:absolute;
-    color: #212529;
-    font-size: 22px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 28px;
     font-weight: bold;
-    background: #ffffff
+    background: #003f5c;
   }
 
   .tall-mobile .title {
-    top: 250;
-    left:23%
-  }
-
-  .byline {
-    text-align: center !important;
-    justify-content: center;
-    position:absolute;
-    color: #212529;
-    font-size: 16px;
-    background: #ffffff
+    top:-100;
+    left:0%;
+    padding:10px;
   }
 
   .tall-mobile .byline {
-    top: 380;
+    top: 550;
     left:23%
   }
 
@@ -141,44 +133,13 @@ a {
   .tall {
     display: none;
   }
-
-  .spread-text {
-    display: none;
-  }
   
   .tall-mobile img {
     margin: 0 auto;
     display: block;
     max-width: 100%;
+    margin-top: 150px;
   }
-  
-  .spread-text-mobile {
-    height: 100%;
-    width: 100%;
-    left: 20;
-    top:10;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    /* You can also do this one */
-    /* justify-content: space-between; */
-  }
-
-  .spread-text-mobile, p:nth-child(2) {
-    top:200;
-  }
-  
-  .spread-text-mobile p {
-    font-size: 16px;
-    max-width: 300px;
-    text-align:left;
-    margin: 0 auto;
-    background: rgba(204, 204, 204, 0.4);
-    width: 100%;
-    padding: 1em;
-  }
-
   html, body {
     overflow-x: hidden;
   }
